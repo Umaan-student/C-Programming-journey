@@ -6,13 +6,13 @@ int main(){
 	printf("\nPlease enter your Name:");
 	scanf("%s", &name);
 	printf("\nPlease enter your Age:");
-	scanf("%s", &age);
+	scanf("%d", &age);
 	printf("\nPlease enter your Gender:");
 	scanf("%d", &gender);
 if(age>=18){
 		printf("\n Your Name is %s", name);
 		printf("\nyour Adult & elegible for license");
-		printf("& your are year old ", age);}
+		printf(" & your are %d year old ", age);}
 else{
 		printf("your not elegible");
 	};
